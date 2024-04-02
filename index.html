@@ -2,8 +2,113 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>To DO List</title>
+    <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <img src="images/plant.png" id="todolist" alt="todolist" />
+      <div id="shadow"></div>
+    </div>
+
+    <div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+    </div>
+
+    <header>
+      <h1 class="heading">To Do List</h1>
+    </header>
+
+    <main>
+      <section id="todo">
+        <details>
+          <h2 class="hidden">To-DOs</h2>
+          <summary class="list-heading">To-Dos</summary>
+          <ul class="todo">
+            <li>
+              <input type="checkbox" class="checkbox" />
+              <span>Design for Eric</span>
+            </li>
+            <!-- <span></span> this code mess with my yellow grid insted of showing the emoji after the checked box -->
+            <li>
+              <input type="checkbox" class="checkbox" />
+              <span>Project Images</span>
+            </li>
+            <li>
+              <input type="checkbox" class="checkbox" /> <span>Groceries</span>
+            </li>
+            <li>
+              <input type="checkbox" class="checkbox" />
+              <span>Art Store - Supplies</span>
+            </li>
+            <li>
+              <input type="checkbox" class="checkbox" /> <span>Quiz</span>
+            </li>
+          </ul>
+        </details>
+      </section>
+
+      <section id="inprogress">
+        <details>
+          <h2 class="hidden">In Progress</h2>
+          <summary class="list-heading">In Progress</summary>
+          <ul class="inprogress">
+            <li>
+              <input type="checkbox" class="checkbox" />
+              <span>Final Project</span>
+            </li>
+            <li>
+              <input type="checkbox" class="checkbox" />
+              <span>Room Renovations</span>
+            </li>
+            <li>
+              <input type="checkbox" class="checkbox" />
+              <span>Research for VC</span>
+            </li>
+            <li>
+              <input type="checkbox" class="checkbox" /><span>
+                Watercolor Painting</span
+              >
+            </li>
+            <li>
+              <input type="checkbox" class="checkbox" /><span>
+                Wireframes for Jarrod</span
+              >
+            </li>
+          </ul>
+        </details>
+      </section>
+
+      <section id="done">
+        <details>
+          <h2 class="hidden">Done</h2>
+          <summary class="list-heading">Done</summary>
+          <ul class="done">
+            <li>
+              <input type="checkbox" class="checkbox" checked="checked" />
+              <span>MMA Homework </span>
+            </li>
+            <li>
+              <input type="checkbox" class="checkbox" checked="checked" />
+              <span>Design for James</span>
+            </li>
+            <li>
+              <input type="checkbox" class="checkbox" checked="checked" />
+              <span>Drivetest</span>
+            </li>
+            <li>
+              <input type="checkbox" class="checkbox" checked="checked" /> Writ
+              <span>Quiz</span>
+            </li>
+            <li>
+              <input type="checkbox" class="checkbox" checked="checked" />
+              <span>Laundry</span>
+            </li>
+          </ul>
+        </details>
+      </section>
+    </main>
+  </body>
 </html>
